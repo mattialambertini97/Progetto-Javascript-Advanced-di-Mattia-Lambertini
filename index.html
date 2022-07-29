@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="CSS/file.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body background="IMG/sfondolibro.jpg">
+    <h1>Librarian</h1>
+
+    <!--contenitore  -->
+    <div class="container">
+
+      <!--bottone di refresh  -->
+     <button type="button" name="button" id="refresh" onclick="ricarica()">Refresh</button>
+     <!--form per inserire il genere del libro da cercare  -->
+     <form method="post" id="form">
+      <input type="text" name="" value="" id="libro" placeholder="fantasy,love,romance ecc">
+      <input type="submit" name="" value="Search" id="ricerca">
+     </form>
+    </div>
+
+    <!--contenitore del titolo, autore e descrizione  -->
+    <div id="testo">
+    </div>
+    <script src="JS/file.js"></script>
+  </body>
+</html>
